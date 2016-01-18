@@ -1,3 +1,4 @@
 {
-    "port":8008
+    "port":8008,
+    "index":"index.html"
 }
