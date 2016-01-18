@@ -4,7 +4,9 @@ var app = koa();
 var root = path.join(__dirname, 'www');
 var config = require('./config.json');
 
-app.use(require('koa-static')(root));
+app.use(require('koa-static')(root, {
+    index: config.index
+}));
 
 app.listen(config.port);
 
