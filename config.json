@@ -1,4 +1,5 @@
 {
     "port":8008,
-    "index":"index.html"
+    "index":"index.html",
+    "root": "/Users/xjc/Utils/koa.static/www/"
 }
