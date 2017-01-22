@@ -1,6 +1,6 @@
 {
   "name": "ystatic",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "static server base on koa",
   "main": "index.js",
   "scripts": {
